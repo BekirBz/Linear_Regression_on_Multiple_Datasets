@@ -1,13 +1,13 @@
 # Linear Regression on Multiple Datasets
 
-## 📌 Project Overview
+## Project Overview
 This project applies **Linear Regression** techniques to analyze and model three different datasets. The goal is to predict target variables using simple and multiple linear regression models, evaluate their performance, and visualize the results.
 
 The project was developed in a **ROS (Robot Operating System)** environment using Python and the `scikit-learn` library.
 
 ---
 
-## 📂 Datasets Used
+## Datasets Used
 1. **Human Height and Weight Dataset**
    - Records: **10,000**
    - Features: Height (cm)
@@ -25,7 +25,7 @@ The project was developed in a **ROS (Robot Operating System)** environment usin
 
 ---
 
-## 🛠 Steps Implemented
+## Steps Implemented
 
 ### **1. Data Loading**
 - CSV datasets are loaded using `pandas`.
@@ -56,7 +56,7 @@ The project was developed in a **ROS (Robot Operating System)** environment usin
 
 ---
 
-## 📊 Results Summary
+## Results Summary
 
 | Dataset | MAE | R² Score | Notes |
 |---------|-----|----------|-------|
@@ -66,14 +66,14 @@ The project was developed in a **ROS (Robot Operating System)** environment usin
 
 ---
 
-## 📈 Visualizations
+## Visualizations
 - Scatter plots with regression lines for single feature datasets.
 - Predicted vs. actual value plots for Boston Housing.
 - Error distribution histograms.
 
 ---
 
-## 📦 Requirements
+## Requirements
 ```bash
 pandas
 numpy
